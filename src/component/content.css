@@ -1,0 +1,361 @@
+.container {
+    padding: 20px 0px;
+  }
+  .patient-row{
+  border-bottom: 1px solid rgb(246,247,248);
+  padding: 10px 0px;
+  }
+
+  .patient-details{
+      display: flex;
+      padding: 0px 0px 0px 10px;
+  }
+  .patientimg{
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+  }
+  .patientimg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.patientdetailtext{
+    padding: 15px;
+}
+.allergies{
+    background: none;
+    border: none;
+    padding: 5px;
+    color: rgb(74, 130, 235);
+    margin-bottom: 5px;
+}
+.billing{
+    background: rgba(74, 130, 235, 0.3);
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: rgb(74, 130, 235);
+    margin-bottom: 5px;
+}
+
+.wt{
+    padding: 10px;
+    position: relative;
+    background:rgb(253,253,195);
+   border-radius: 10px;
+   border: 2px solid rgb(240,223,176);
+   box-shadow: 5px -3px 20px 6px rgba(0, 0, 0, 0.1);
+}
+
+.wt p{
+    margin-top: -5px;
+}
+
+.wt h3{
+    margin-top: -12px;
+}
+.wt-btn{
+    display: flex;
+    justify-content: flex-end;
+}
+.wt button{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: none;
+    margin-left: 5px;
+    background: rgba(240,223,176,0.1);
+    color:rgb(240,223,190);
+}
+
+.medical{
+    padding: 10px;
+    position: relative;
+    background:rgb(201,251,203);
+    border-radius: 10px;
+    box-shadow: 5px -3px 20px 6px rgba(0, 0, 0, 0.1);
+    /* height: 195px; */
+}
+
+.medical p{
+    margin-top: -5px;
+}
+.medical h2{
+    margin-top: 30px;
+    margin-bottom: 70px;
+    font-size: 16px;
+}
+
+.talkative{
+    padding: 10px;
+    position: relative;
+    background:rgb(191,212,250);
+    border-radius: 10px;
+    padding-bottom: 150px;
+    box-shadow: 5px -3px 20px 6px rgba(0, 0, 0, 0.1);
+}
+
+.panic{
+    padding: 10px;
+    position: relative;
+    background:rgb(246,191,214);
+    border-radius: 10px;
+    padding-bottom: 120px;
+    box-shadow: 5px -3px 20px 6px rgba(0, 0, 0, 0.1);
+}
+
+.med-summary{
+    border: 1px solid #D5D5D5;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    margin: 10px;
+}
+.tab-details{
+    /* border-radius: 5px 5px 0px 0px; */
+    box-shadow:  0px 5px 10px 0px rgba(0, 0, 0, 0.3);
+}
+.status{
+    border-bottom: 1px solid rgb(246,247,248);
+    padding: 3px 0px;
+}
+/* .status h1{
+    border: solid;
+} */
+.radio-status{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.radio-status label{
+   padding: 0px 10px;
+}
+.input-detail{
+    width: 400px;
+    margin: auto;
+    position: relative;
+}
+.input-detail h6{
+    position: absolute;
+    left: 80px;
+    top: 15px;
+    font-size: 15px;
+}
+.fa-circle{
+    font-size: 5px;
+    color:#D5D5D5;
+}
+.fa-search{
+    color:#D5D5D5;
+    font-size: 15px;
+}
+.fa-caret-down{
+    margin-left: 8rem;
+    font-size: 18px;
+    color:#D5D5D5;
+}
+.fa-star{
+    padding: 15px 0px;
+    font-size: 25px;
+    color:#D5D5D5;
+}
+
+.input-detail input{
+   width: 100%;
+   padding: 15px 0px;
+   border-radius: 5px;
+   border:1px solid #D5D5D5;
+}
+
+::placeholder{
+    padding: 0px 0px 0px 10px;
+    font-size: bold;
+}
+.tabs-extra-demo-button {
+    margin-right: 16px;
+  }
+  
+  .ant-row-rtl .tabs-extra-demo-button {
+    margin-right: 0;
+    margin-left: 16px;
+  }
+  .highpiority{
+    padding: 10px;
+    display: flex;
+  }
+  .highpiority label{
+    padding: 0px 0px 0px 10px;
+    font-weight: bold;
+  }
+  .orders{
+      margin: 20px 0px 0px 0px;
+      background: #F6F8FA;
+      padding: 10px;
+  }
+
+  .ant-tabs-card.ant-tabs-top > .ant-tabs-nav .ant-tabs-tab-active, .ant-tabs-card.ant-tabs-top > div > .ant-tabs-nav .ant-tabs-tab-active {
+    border-bottom-color: #fff;
+    background: #DBE5F3!important;
+    border-radius: 5px;
+}
+
+.collection{
+    padding: 30px;
+    margin: 10px;
+    background: white;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow:  0px 5px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+.order-edit{
+    border-bottom:1px solid #D5D5D5;
+    padding: 5px 0px;
+}
+.order-edit p{
+    text-align: end;
+    padding: 0px 15px;
+}
+
+.overview-holder{
+    padding: 15px;
+    border-radius: 10px 10px 0px 0px;
+    position: relative;
+    border:1px solid #D5D5D5;
+    margin: 10px;
+}
+
+.overview-icon{
+    position: absolute;
+    right: 8px;
+    top: 29px;
+}
+.overview-icon .fa{
+    margin-left: 8px;
+   
+}
+.overview-holder h4{
+    color:#D5D5D5;
+} 
+
+.order-edit-details{
+    border-bottom: 1px solid #D5D5D5;
+    padding: 10px 0px;
+    font-size: 12px;
+}
+
+.orders-boldtext{
+    font-weight: bold;
+}
+
+.globalalert{
+    position: relative;
+    padding: 6px;
+    background: rgb(246,248,250);
+    border-radius: 10px;
+    border-bottom: 1px solid #D5D5D5;
+}
+.globalalert .fa{
+    position: absolute;
+    right: 10px;
+    top:15px;
+    color:#D5D5D5;
+}
+
+.ccm{
+    padding: 10px 5px;
+}
+.ccm p{
+    font-size: 13px;
+}
+
+.problemlist{
+    padding: 10px 0px;
+    margin: 10px 0px;
+    background: rgb(246,248,250);
+    border-radius: 10px 10px 0px 0px;
+}
+
+.problemholder{
+    border-bottom:1px solid #D5D5D5;
+    padding: 3px 5px;
+}
+
+.problemholder h2{
+   font-size: 15px; 
+}
+.problemholder i{
+    margin-left: 80px;
+}
+
+.list{
+    padding: 20px 5px;
+}
+
+.plus{
+    width: 15px;
+    height: 15px;
+    padding: 2px 6px 5px 6px;
+    background: rgb(246,248,250);
+    color: rgb(74, 130, 235);
+    border-radius: 5px;
+    display: flex;
+    margin: 3px 0px 0px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.list h3{
+    font-size: 12px;
+}
+
+.list h4{
+    font-size: 12px;
+    color: green;
+}
+@media only screen and (max-width: 1024px) {
+    .patientimg{
+        width: 100%;
+        height: 100%;
+    }
+    .patient-details{
+        display: block;
+        padding: 0px;
+    }
+    .wt-btn{
+        display: block;
+    }
+
+    .patientdetailtext h2{
+        font-size: 10px;
+       }
+       .patientdetailtext{
+        margin: 0px;
+    }
+    
+    .date-mail{
+        font-size: 10px;
+    }
+    .input-detail{
+        width: 100%;
+    }
+    .input-detail h6{
+        position: absolute;
+        left: 67px;
+        top: 18px;
+        font-size:10px;
+    }
+    .input-detail input{
+        margin-bottom: 10px;
+     }
+     .highpiority{
+        padding: 0px;
+        display: block;
+      }
+      .order-edit p{
+        text-align: start;
+        padding: 0px;
+    }
+    .overview-icon{
+        display: none;
+    }
+}
